@@ -1,0 +1,1125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:convection;
+    scroll-behavior: smooth;
+}
+/* aplicando grid areas */
+
+
+.contenedor_in{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "ini_casual"
+    "ini_link_cas"
+    "ini_historia"
+    "ini_link_his"
+    "footer";
+}
+.contenedor_ca{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "casual"
+    "calzado"
+    "footer";
+}
+.contenedor_co{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "contact__mainContainer"
+    "footer";
+}
+contenedor_hi{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "historia"
+    "footer";
+}
+contenedor_no{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "nosotros"
+    "footer";
+}
+/* FIN aplicando grid areas */
+
+
+/* definiendo areas a sus class */
+
+
+.header{
+    grid-area: header;
+}
+.nav{
+    grid-area: nav;
+}
+.ini_casual{
+    grid-area: ini_casual;
+}
+.ini_link_cas{
+    grid-area: ini_link_cas;
+}
+ini_historia{
+    grid-area: ini_historia;
+}
+ini_link_his{
+    grid-area: ini_link_his;
+}
+.footer{
+    grid-area: footer;
+}
+
+.casual{
+    grid-area: casual;
+}
+.calzado{
+    grid-area: calzado;
+}
+.contact__mainContainer{
+    grid-area: contact__mainContainer;
+}
+.historia{
+    grid-area: historia;
+}
+.nosotros{
+    grid-area: nosotros;
+}
+/* css index.html */
+
+.header img{
+    width: 150px;
+}
+.header {
+    margin-top: 10px;
+    text-align: center;
+}
+.nav{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.nav a{
+    margin: 10px;
+    
+}
+.nav button{
+    font-size: 15px;
+    justify-content: center;
+    border: none;
+    padding: 0.3rem 0.7rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+    
+}
+.nav :hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+      
+}
+.ini_casual, .ini_historia{
+    text-align: center;
+    margin-top: 100px;
+}
+.ini_casual img{
+    width: 350px;
+    border-radius: 25px;
+}
+.ini_historia img{
+    width: 350px;
+    border-radius: 25px;
+}
+.ini_link_cas, .ini_link_his{
+    margin: 10px;
+    text-align: center;
+}
+.ini_link_cas button{
+    font-size: 10px;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+    
+}
+.ini_link_cas :hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.1s;
+    
+}
+.ini_link_his button{
+    font-size: 10px;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+    
+}
+.ini_link_his :hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.1s;
+    
+}
+.footer{
+    text-align: center;
+    font-size: 10px;
+}
+
+
+/* ccs casual.html */
+
+
+.aclaracion{
+    color: rgb(68, 68, 68);
+    background-color: #0303031f;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    margin-bottom: 40PX;
+}
+.producto{
+    text-align: center;
+    margin: 40px;
+}
+.producto img{
+    width: 270px;
+}
+
+.prenda button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border: none;
+    padding: 0.5rem 2rem;
+    text-transform: uppercase; 
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    background-color: rgb(188, 197, 197);
+}
+
+
+/* css contacto.html */
+
+
+.contact__mainContainer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__mainContainer .contact__form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__mainContainer .contact__form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contact__mainContainer .contact__form input {
+    height: 2.5rem;
+    padding: 1rem;
+    outline: none;
+    margin-bottom: 1rem;
+}
+
+.contact__mainContainer .contact__form textarea {
+    padding: 1rem;
+    resize: none;
+    margin-bottom: 1rem;
+}
+
+.contact__mainContainer .contact__form .contact__form--buttonsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.contact__mainContainer .contact__form .contact__form--buttonsContainer button {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "submit"] {
+    background-color: grey;
+    color: white;
+    transition: all .5s ease-in;
+}
+
+.contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "submit"]:hover {
+    background-color: white;
+    color: rgb(70, 70, 70);
+    border: 1px solid rgb(75, 75, 75);
+    cursor: pointer;
+}
+
+.contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "reset"] {
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
+    transition: all .5s ease-in;
+
+}
+
+.contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "reset"]:hover {
+    background-color: rgb(102, 102, 102);
+    color: white;
+    cursor: pointer;
+}
+
+
+/* css historia.html */
+.historia{
+    margin: 20px;
+    padding: 10px;
+    background-color: gray;
+}
+.historia img{
+    width: 150px;
+    padding: 10px;
+    float: left;
+    
+}
+.historia p, h3{
+    color: white;
+    
+}
+
+
+/* css nosotros.html */
+
+.nosotros{
+    background-color: grey;
+    margin: 20px;
+    padding: 10px;
+
+}
+.nosotros img{
+    width: 250px;
+    padding: 6px;
+    float: left;
+}
+.nosotros, p{
+    color: white;
+}
+
+/* FIN DE VISTA MOBIL */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive tablet */
+
+@media screen and (min-width: 670px){
+
+/* aplicando grid areas */
+
+
+.contenedor_in{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "ini_casual"
+    "ini_link_cas"
+    "ini_historia"
+    "ini_link_his"
+    "footer";
+    
+}
+.contenedor_ca{
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "casual casual"
+    "calzado calzado"
+    "footer footer";
+}
+.contenedor_co{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "contact__mainContainer"
+    "footer";
+}
+contenedor_hi{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "historia"
+    "footer";
+}
+contenedor_no{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "nosotros"
+    "footer";
+}
+
+
+
+/* definiendo areas a sus class */
+
+
+.header{
+    grid-area: header;
+}
+.nav{
+    grid-area: nav;
+}
+.ini_casual{
+    grid-area: ini_casual;
+}
+.ini_link_cas{
+    grid-area: ini_link_cas;
+}
+ini_historia{
+    grid-area: ini_historia;
+}
+ini_link_his{
+    grid-area: ini_link_his;
+}
+.footer{
+    grid-area: footer;
+}
+
+.casual{
+    grid-area: casual;
+}
+.calzado{
+    grid-area: calzado;
+}
+.contact__mainContainer{
+    grid-area: contact__mainContainer;
+}
+.historia{
+    grid-area: historia;
+}
+.nosotros{
+    grid-area: nosotros;
+}
+
+
+/* FIN definiendo areas a sus class */
+
+/* css index.html */
+
+.header img{
+    width: 200px;
+}
+.header {
+    margin-top: 10px;
+    text-align: center;
+}
+.nav{
+    
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.nav a{
+    margin: 10px;
+}
+.nav button{
+    
+    font-size: 15px;
+    justify-content: center;
+    border: none;
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+    
+}
+.nav :hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+      
+}
+.ini_casual, .ini_historia{
+    text-align: center;
+}
+.ini_casual img{
+    width: 300px;
+    border-radius: 25px;
+}
+.ini_historia img{
+    width: 300px;
+    border-radius: 25px;
+}
+.ini_link_cas, .ini_link_his{
+    margin: 10px;
+    text-align: center;
+}
+.ini_link_cas button{
+    font-size: 10px;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+    
+}
+.ini_link_cas :hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.1s;
+    
+}
+.ini_link_his button{
+    font-size: 10px;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+    
+}
+.ini_link_his :hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.1s;
+    
+}
+.footer{
+    text-align: center;
+    font-size: 10px;
+}
+
+
+/* ccs casual.html */
+
+
+.aclaracion{
+    color: rgb(68, 68, 68);
+    background-color: #0303031f;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    margin-bottom: 40PX;
+}
+.productos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.producto img{
+    width: 270px;
+}
+.producto{
+    text-align: center;
+    margin: 40px;
+}
+
+.prenda button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border: none;
+    padding: 0.5rem 3rem;
+    text-transform: uppercase; 
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+
+/* css contacto.html */
+
+
+.contact__mainContainer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__mainContainer .contact__form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__mainContainer .contact__form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contact__mainContainer .contact__form input {
+    height: 2.5rem;
+    padding: 1rem;
+    outline: none;
+    margin-bottom: 1rem;
+}
+
+.contact__mainContainer .contact__form textarea {
+    padding: 1rem;
+    resize: none;
+    margin-bottom: 1rem;
+}
+
+.contact__mainContainer .contact__form .contact__form--buttonsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.contact__mainContainer .contact__form .contact__form--buttonsContainer button {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "submit"] {
+    background-color: grey;
+    color: white;
+    transition: all .5s ease-in;
+}
+
+.contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "submit"]:hover {
+    background-color: white;
+    color: rgb(70, 70, 70);
+    border: 1px solid rgb(75, 75, 75);
+    cursor: pointer;
+}
+
+.contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "reset"] {
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
+    transition: all .5s ease-in;
+
+}
+
+.contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "reset"]:hover {
+    background-color: rgb(102, 102, 102);
+    color: white;
+    cursor: pointer;
+}
+
+
+/* css historia.html */
+.historia{
+    margin: 20px;
+    padding: 10px;
+    background-color: gray;
+}
+.historia img{
+    width: 250px;
+    padding: 10px;
+    float: left;
+    
+}
+.historia p, h3{
+    color: white;
+    
+}
+
+
+/* css nosotros.html */
+
+.nosotros{
+    background-color: grey;
+    margin: 20px;
+    padding: 25px;
+
+}
+.nosotros img{
+    width: 250px;
+    padding: 6px;
+    float: left;
+}
+.nosotros, p{
+    color: white;
+}
+
+}
+
+/* FIN DE VISTA TABLET */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* VISTA COMPUTADORA */
+
+
+@media screen and (min-width: 1050px){
+
+    .contenedor_in{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "header header"
+        "nav nav"
+        "ini_casual ini_historia"
+        "ini_link_cas ini_link_his"
+        "footer footer";
+    }
+    .contenedor_ca{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "header header header header"
+        "nav nav nav nav"
+        "casual casual casual casual"
+        "calzado calzado calzado calzado"
+        "footer footer footer footer";
+    }
+    .contenedor_co{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "contact__mainContainer"
+        "footer";
+    }
+    contenedor_hi{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "historia"
+        "footer";
+    }
+    contenedor_no{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "nosotros"
+        "footer";
+    }
+    /* FIN aplicando grid areas */
+    
+    
+    /* definiendo areas a sus class */
+    
+    
+    .header{
+        grid-area: header;
+    }
+    .nav{
+        grid-area: nav;
+    }
+    .ini_casual{
+        grid-area: ini_casual;
+    }
+    .ini_link_cas{
+        grid-area: ini_link_cas;
+    }
+    ini_historia{
+        grid-area: ini_historia;
+    }
+    ini_link_his{
+        grid-area: ini_link_his;
+    }
+    .footer{
+        grid-area: footer;
+    }
+    
+    .casual{
+        grid-area: casual;
+    }
+    .calzado{
+        grid-area: calzado;
+    }
+    .contact__mainContainer{
+        grid-area: contact__mainContainer;
+    }
+    .historia{
+        grid-area: historia;
+    }
+    .nosotros{
+        grid-area: nosotros;
+    }
+    
+    /* css index.html */
+    
+    .header img{
+        width: 150px;
+    }
+    .header {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .nav{
+        
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background-color: white;
+        
+    }
+    .nav a{
+        margin: 10px;
+    }
+    .nav button{
+        font-size: 10px;
+        justify-content: center;
+        border: none;
+        padding: 0.4rem 0.7rem;
+        border-radius: 5px;
+        text-transform: uppercase;
+        color: white;
+        
+        
+    }
+    .nav :hover{
+        transform: scale(1.4);
+        transition: 0.3s;
+        background-color: grey;
+        color: white;
+        cursor: pointer;
+          
+    }
+    .ini_casual, .ini_historia{
+        text-align: center;
+    }
+    .ini_casual img{
+        border-radius: 25px;
+    }
+    .ini_historia img{
+        border-radius: 25px;
+    }
+    .ini_link_cas, .ini_link_his{
+        margin: 10px;
+        text-align: center;
+    }
+    .ini_link_cas button{
+        font-size: 10px;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        text-transform: uppercase;
+        background-color: grey;
+        color: white;
+        border: 1px solid grey;
+        
+    }
+    .ini_link_cas :hover{
+        background-color: grey;
+        color: white;
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.1s;
+        
+    }
+    .ini_link_his button{
+        font-size: 10px;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        text-transform: uppercase;
+        background-color: grey;
+        color: white;
+        border: 1px solid grey;
+        
+    }
+    .ini_link_his :hover{
+        background-color: grey;
+        color: white;
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.1s;
+        
+    }
+    .footer{
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    
+    /* ccs casual.html */
+    
+    
+    .aclaracion{
+        color: rgb(68, 68, 68);
+        background-color: #0303031f;
+        font-size: 17px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 40px;
+        margin-bottom: 40PX;
+    }
+    .productos{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-content: center;
+    }
+    .producto{
+        text-align: center;
+        margin: 40px;
+    }
+    .producto img{
+        width: 90%;
+    }
+    
+    .prenda button{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 15px;
+        border: none;
+        padding: 0.5rem 2rem;
+        text-transform: uppercase; 
+        color: rgb(255, 255, 255);
+        border-radius: 4px;
+        background-color: rgb(188, 197, 197);
+    }
+    
+    
+    /* css contacto.html */
+    
+    
+    .contact__mainContainer {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contact__mainContainer .contact__form {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contact__mainContainer .contact__form h2 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    .contact__mainContainer .contact__form input {
+        height: 2.5rem;
+        padding: 1rem;
+        outline: none;
+        margin-bottom: 1rem;
+    }
+    
+    .contact__mainContainer .contact__form textarea {
+        padding: 1rem;
+        resize: none;
+        margin-bottom: 1rem;
+    }
+    
+    .contact__mainContainer .contact__form .contact__form--buttonsContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    
+    .contact__mainContainer .contact__form .contact__form--buttonsContainer button {
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+    
+    .contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "submit"] {
+        background-color: grey;
+        color: white;
+        transition: all .5s ease-in;
+    }
+    
+    .contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "submit"]:hover {
+        background-color: white;
+        color: rgb(70, 70, 70);
+        border: 1px solid rgb(75, 75, 75);
+        cursor: pointer;
+    }
+    
+    .contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "reset"] {
+        background-color: white;
+        color: grey;
+        border: 1px solid grey;
+        transition: all .5s ease-in;
+    
+    }
+    
+    .contact__mainContainer .contact__form .contact__form--buttonsContainer button[type = "reset"]:hover {
+        background-color: rgb(102, 102, 102);
+        color: white;
+        cursor: pointer;
+    }
+    
+    
+    /* css historia.html */
+    .historia{
+        margin: 20px;
+        padding: 10px;
+        background-color: gray;
+    }
+    .historia img{
+        width: 200px;
+        padding: 10px;
+        float: left;
+        
+    }
+    .historia p, h3{
+        color: white;
+        
+    }
+    
+    
+    /* css nosotros.html */
+    
+    .nosotros{
+        background-color: grey;
+        margin: 20px;
+        padding: 30px;
+    
+    }
+    .nosotros img{
+        width: 250px;
+        padding: 6px;
+        float: left;
+    }
+    .nosotros, p{
+        color: white;
+    }
+
+
+}
