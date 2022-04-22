@@ -122,11 +122,11 @@ ini_link_his{
     
 }
 .nav a{
-    margin: 10px;
+    margin: 5px;
     
 }
 .nav button{
-    font-size: 15px;
+    font-size: 10px;
     justify-content: center;
     border: none;
     padding: 0.3rem 0.7rem;
@@ -504,11 +504,11 @@ ini_link_his{
     
 }
 .nav a{
-    margin: 10px;
+    margin: 5px;
 }
 .nav button{
     
-    font-size: 15px;
+    font-size: 10px;
     justify-content: center;
     border: none;
     padding: 0.4rem 0.7rem;
