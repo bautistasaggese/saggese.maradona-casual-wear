@@ -132,15 +132,15 @@ ini_link_his{
     padding: 0.3rem 0.7rem;
     border-radius: 5px;
     text-transform: uppercase;
-    background-color: grey;
+    background-color: rgb(188, 197, 197);
     color: white;
-    border: 1px solid grey;
+    border: 1px solid rgb(188, 197, 197);
     
 }
 .nav :hover{
     transform: scale(1.2);
     transition: 0.3s;
-    background-color: grey;
+    background-color: rgb(188, 197, 197);
     color: white;
     cursor: pointer;
       
@@ -167,13 +167,13 @@ ini_link_his{
     padding: 0.5rem 1rem;
     border-radius: 5px;
     text-transform: uppercase;
-    background-color: grey;
+    background-color: rgb(188, 197, 197);
     color: white;
-    border: 1px solid grey;
+    border: 1px solid rgb(188, 197, 197);
     
 }
 .ini_link_cas :hover{
-    background-color: grey;
+    background-color: rgb(188, 197, 197);
     color: white;
     cursor: pointer;
     transform: scale(1.1);
@@ -186,13 +186,13 @@ ini_link_his{
     padding: 0.5rem 1rem;
     border-radius: 5px;
     text-transform: uppercase;
-    background-color: grey;
+    background-color: rgb(188, 197, 197);
     color: white;
-    border: 1px solid grey;
+    border: 1px solid rgb(188, 197, 197);
     
 }
 .ini_link_his :hover{
-    background-color: grey;
+    background-color: rgb(188, 197, 197);
     color: white;
     cursor: pointer;
     transform: scale(1.1);
@@ -514,15 +514,15 @@ ini_link_his{
     padding: 0.4rem 0.7rem;
     border-radius: 5px;
     text-transform: uppercase;
-    background-color: grey;
+    background-color: rgb(188, 197, 197);
     color: white;
-    border: 1px solid grey;
+    border: 1px solid rgb(188, 197, 197);
     
 }
 .nav :hover{
     transform: scale(1.2);
     transition: 0.3s;
-    background-color: grey;
+    background-color: #bcc5c5;
     color: white;
     cursor: pointer;
       
@@ -548,13 +548,13 @@ ini_link_his{
     padding: 0.5rem 1rem;
     border-radius: 5px;
     text-transform: uppercase;
-    background-color: grey;
+    background-color: rgb(188, 197, 197);
     color: white;
-    border: 1px solid grey;
+    border: 1px solid rgb(188, 197, 197);
     
 }
 .ini_link_cas :hover{
-    background-color: grey;
+    background-color: rgb(188, 197, 197);
     color: white;
     cursor: pointer;
     transform: scale(1.1);
@@ -567,13 +567,13 @@ ini_link_his{
     padding: 0.5rem 1rem;
     border-radius: 5px;
     text-transform: uppercase;
-    background-color: grey;
+    background-color: rgb(188, 197, 197);
     color: white;
-    border: 1px solid grey;
+    border: 1px solid rgb(188, 197, 197);
     
 }
 .ini_link_his :hover{
-    background-color: grey;
+    background-color: rgb(188, 197, 197);
     color: white;
     cursor: pointer;
     transform: scale(1.1);
@@ -911,7 +911,7 @@ ini_link_his{
     .nav :hover{
         transform: scale(1.4);
         transition: 0.3s;
-        background-color: grey;
+        background-color: rgb(188, 197, 197);
         color: white;
         cursor: pointer;
           
@@ -935,13 +935,13 @@ ini_link_his{
         padding: 0.5rem 1rem;
         border-radius: 5px;
         text-transform: uppercase;
-        background-color: grey;
+        background-color: rgb(188, 197, 197);
         color: white;
-        border: 1px solid grey;
+        border: 1px solid rgb(188, 197, 197);
         
     }
     .ini_link_cas :hover{
-        background-color: grey;
+        background-color: rgb(188, 197, 197);
         color: white;
         cursor: pointer;
         transform: scale(1.1);
@@ -954,13 +954,13 @@ ini_link_his{
         padding: 0.5rem 1rem;
         border-radius: 5px;
         text-transform: uppercase;
-        background-color: grey;
+        background-color: rgb(188, 197, 197);
         color: white;
-        border: 1px solid grey;
+        border: 1px solid rgb(188, 197, 197);
         
     }
     .ini_link_his :hover{
-        background-color: grey;
+        background-color: rgb(188, 197, 197);
         color: white;
         cursor: pointer;
         transform: scale(1.1);
