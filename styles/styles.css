@@ -186,13 +186,12 @@ ini_link_his{
     padding: 0.5rem 1rem;
     border-radius: 5px;
     text-transform: uppercase;
-    background-color: rgb(188, 197, 197);
+    background-color: #529ab3;
     color: white;
-    border: 1px solid rgb(188, 197, 197);
+    border: 1px solid 529ab3;
     
 }
 .ini_link_his :hover{
-    background-color: rgb(188, 197, 197);
     color: white;
     cursor: pointer;
     transform: scale(1.1);
@@ -531,11 +530,11 @@ ini_link_his{
     text-align: center;
 }
 .ini_casual img{
-    width: 300px;
+    width: 400px;
     border-radius: 25px;
 }
 .ini_historia img{
-    width: 300px;
+    width: 400px;
     border-radius: 25px;
 }
 .ini_link_cas, .ini_link_his{
@@ -567,13 +566,12 @@ ini_link_his{
     padding: 0.5rem 1rem;
     border-radius: 5px;
     text-transform: uppercase;
-    background-color: rgb(188, 197, 197);
+    background-color: #023b59;
     color: white;
-    border: 1px solid rgb(188, 197, 197);
+    border: 1px solid 529ab3;
     
 }
 .ini_link_his :hover{
-    background-color: rgb(188, 197, 197);
     color: white;
     cursor: pointer;
     transform: scale(1.1);
@@ -954,13 +952,12 @@ ini_link_his{
         padding: 0.5rem 1rem;
         border-radius: 5px;
         text-transform: uppercase;
-        background-color: rgb(188, 197, 197);
+        background-color: #023b59;
         color: white;
-        border: 1px solid rgb(188, 197, 197);
+        border: 1px solid 529ab3;
         
     }
     .ini_link_his :hover{
-        background-color: rgb(188, 197, 197);
         color: white;
         cursor: pointer;
         transform: scale(1.1);
